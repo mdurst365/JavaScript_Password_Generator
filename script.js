@@ -1,3 +1,25 @@
+/*define variables - lowercase, uppercase, special characters and numbers
+*/
+
+/*function to generate a random password
+*/
+
+/*prompt user to input desired character length - between 8 and 128
+*/
+
+/*character type prompts: lowercase, uppercase, special characters, numbers
+*/
+
+/*remind user to select at least one character type from the prompts
+*/
+
+/*generate random password
+*/
+
+/*function to copy the new password to the clipboard
+*/
+
+
 // Assignment Code
 var generateBtn = document.querySelector("#generate");
 
