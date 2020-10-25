@@ -10,7 +10,7 @@ This week’s homework requires you to create an application that an employee ca
 - [ ] Allow user to select which criteria to include in the password
 - [ ] Allow user to select a length that is at least 8 characters and no more than 128 characters
 - [ ] Allow the user to select character types to include in the password
-- [ ] Character types shoudl include: lowercase, uppercase, numeric, and/or special characters
+- [X] Character types should include: lowercase, uppercase, numeric, and/or special characters
 - [ ] Character type prompt should be validated and at least one character type should be selected
 - [ ] When all prompts are answered, then a password is generated that matches the selected criteria
 - [ ] The password will either be displayed in an alert or written to the page 
