@@ -5,14 +5,20 @@ var upper = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
 var special = '!@#$^&%*()+=-[]{}|:<>?,.';
 var numbers = '1234567890';
 
-//generate random password
+
+//generate random password as an empty string
+var newPassword = "";
+
 
 /*function to generate a random password
 */
 
 /*prompt user to input desired character length - between 8 and 128
 */
-window.alert("What length would you like the password to be? (Between 8 to 128 characters)");
+var charLength = prompt("What length would you like the password to be? (Between 8 to 128 characters)");
+
+//Run program if a character range is choosen between 8 and 128;
+    if ((charLength >= 8) && (charLength <= 128))
 
 /*inform the user that a series of prompts are coming
 */
@@ -67,8 +73,6 @@ generateBtn.addEventListener("click", writePassword);
 /*generate random password
 */
 
-/*function to copy the new password to the clipboard
-*/
 
 
 // Assignment Code
