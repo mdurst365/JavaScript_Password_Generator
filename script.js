@@ -17,8 +17,12 @@ var newPassword = "";
 */
 var charLength = prompt("What length would you like the password to be? (Between 8 to 128 characters)");
 
-//Run program if a character range is choosen between 8 and 128;
-    if ((charLength >= 8) && (charLength <= 128))
+//Run program if a character range is choosen between 8 and 128;		
+		if ((charLength >= 8) && (charLength <= 128)) {
+   window.alert("Great! That is a valid length");
+}  else {
+  window.alert("Sorry, please enter a valid length");
+}
 
 /*inform the user that a series of prompts are coming
 */

@@ -6,9 +6,9 @@ This week’s homework requires you to create an application that an employee ca
 
 ## Task List
 - [ ] Create button that when clicked will generate a password
-- [ ] Create a series of prompts for password criteria
+- [X] Create a series of prompts for password criteria
 - [ ] Allow user to select which criteria to include in the password
-- [ ] Allow user to select a length that is at least 8 characters and no more than 128 characters
+- [X] Allow user to select a length that is at least 8 characters and no more than 128 characters
 - [ ] Allow the user to select character types to include in the password
 - [X] Character types should include: lowercase, uppercase, numeric, and/or special characters
 - [ ] Character type prompt should be validated and at least one character type should be selected
