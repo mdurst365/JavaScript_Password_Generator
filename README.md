@@ -5,18 +5,18 @@
 This week’s homework requires you to create an application that an employee can use to generate a random password based on criteria they’ve selected by modifying starter code. This app will run in the browser, and will feature dynamically updated HTML and CSS powered by JavaScript code that you write. It will have a clean and polished user interface that is responsive, ensuring that it adapts to multiple screen sizes.
 
 ## Task List
-- [ ] Create button that when clicked will generate a password
+- [X] Create button that when clicked will generate a password
 - [X] Create a series of prompts for password criteria
-- [ ] Allow user to select which criteria to include in the password
+- [X] Allow user to select which criteria to include in the password
 - [X] Allow user to select a length that is at least 8 characters and no more than 128 characters
-- [ ] Allow the user to select character types to include in the password
+- [X] Allow the user to select character types to include in the password
 - [X] Character types should include: lowercase, uppercase, numeric, and/or special characters
-- [ ] Character type prompt should be validated and at least one character type should be selected
-- [ ] When all prompts are answered, then a password is generated that matches the selected criteria
-- [ ] The password will either be displayed in an alert or written to the page 
+- [X] Character type prompt should be validated and at least one character type should be selected
+- [X] When all prompts are answered, then a password is generated that matches the selected criteria
+- [X] The password will either be displayed in an alert or written to the page 
 
 ## Validation Resources
-[ ] Checked to make sure that this code does produce any errors in the console when you inspect it using Chrome DevTools.
+[X] Checked to make sure that this code does produce any errors in the console when you inspect it using Chrome DevTools.
 
 ## MIT License
 

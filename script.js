@@ -1,3 +1,5 @@
+// JavaScript Document
+
 //define variables - lowercase, uppercase, special characters and numbers
 
 var lower = 'abcdefghijklmnopqrstuvwxyz';
