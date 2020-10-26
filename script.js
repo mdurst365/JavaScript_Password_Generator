@@ -23,7 +23,7 @@ var charLength = prompt("What length would you like the password to be? (Between
 		if ((charLength >= 8) && (charLength <= 128)) {
    window.alert("Great! That is a valid length");
 }  else {
-  window.alert("Please refresh this page and enter a valid length");
+  window.alert("Sorry that won't work - Please refresh this page and enter a valid length");
 }
 
 /*inform the user that a series of prompts are coming
@@ -42,5 +42,3 @@ window.confirm("Question 4/4: Would you like your password to include numbers?")
 */
 window.alert("Please select at least one character type from the prompts)");
 
-/*function to copy the new password to the clipboard
-*/
