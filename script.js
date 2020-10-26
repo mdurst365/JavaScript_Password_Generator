@@ -26,17 +26,6 @@ var charLength = prompt("What length would you like the password to be? (Between
   window.alert("Please refresh this page and enter a valid length");
 }
 
-/*trying out a function to validate length
-function validateLength() {
-  while ((charLength >= 8) && (charLength <= 128)) {
-    window.alert("Great! That is a valid length");
-    if ((charLength <= 8) && (charLength >= 128))  {
-		window.alert("Sorry, please enter a valid length");
-      break;
-    }
-  }
- */
-
 /*inform the user that a series of prompts are coming
 */
 window.alert("Please answer the next 4 questions to personalize your password");
