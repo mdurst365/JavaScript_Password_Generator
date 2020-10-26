@@ -7,13 +7,12 @@ var upper = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
 var special = '!@#$^&%*()+=-[]{}|:<>?,.';
 var numbers = '1234567890';
 
+var pwd = '';
 
-//generate random password as an empty string
-var newPassword = "";
-
-
-/*function to generate a random password
-*/
+var lowerSelection = false;
+var upperSelection = false;
+var specialSelection = false;
+var numberSelection = false;
 
 /*prompt user to input desired character length - between 8 and 128
 */
@@ -41,4 +40,7 @@ window.confirm("Question 4/4: Would you like your password to include numbers?")
 /*remind user to select at least one character type from the prompts
 */
 window.alert("Please select at least one character type from the prompts)");
+
+/*function to generate a random password
+*/
 
