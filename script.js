@@ -59,3 +59,20 @@ if (charLength) {
 /*function to generate a random password
 */
 
+var characters = '';
+    characters += (lowerSelection ? lower : '');
+    characters += (upperSelection ? upper : '');
+    characters += (specialSelection ? special : '');
+    characters += (numberSelection ? numbers : '');
+
+    pwd = password(charLength, characters);
+
+    document.getElementById("password").innerHTML = pwd;
+
+function password(l, characters) {
+    var pwd = '';
+    for (var i = 0; i < l; ++i) {
+        pwd += characters.charAt(Math.floor(Math.random() * characters.length));
+    }
+    return pwd;
+}
