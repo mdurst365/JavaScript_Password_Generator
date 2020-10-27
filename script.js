@@ -32,10 +32,22 @@ window.alert("Please answer the next 4 questions to personalize your password");
 
 /*character type prompts: lowercase, uppercase, special characters, numbers
 */
-window.confirm("Question 1/4: Would you like your password to include lower case letters?");
-window.confirm("Question 2/4: Would you like your password to include upper case letters?");
-window.confirm("Question 3/4: Would you like your password to include special characters?");
-window.confirm("Question 4/4: Would you like your password to include numbers?");
+if (charLength) {
+        if (confirm("Question 1/4: Would you like to use lowercase characters?") == true) {
+            lowerSelection = true
+        } 
+
+        if (confirm("Question 2/4: Would you like to use uppercase characters?") == true) {
+            upperSelection = true
+        }
+
+        if (confirm("Question 3/4: Would you like to use special characters?") == true) {
+            specialSelection = true
+        }
+
+        if (confirm("Question 4/4: Would you like to use numerical characters?") == true) {
+            numberSelection = true
+        }
 
 /*remind user to select at least one character type from the prompts
 */
