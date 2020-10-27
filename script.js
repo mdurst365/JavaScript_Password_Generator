@@ -17,17 +17,13 @@ var numberSelection = false;
 //onclick call this function
 function generate() {
 
-/*prompt user to input desired character length - between 8 and 128
-*/
-var charLength = prompt("What length would you like the password to be? (Between 8 to 128 characters)");
-
-//Run program if a character range is choosen between 8 and 128;		
-		if ((charLength >= 8) && (charLength <= 128)) {
-   window.alert("Great! That is a valid length");
-}  else {
-  window.alert("I guess you think rules are for other people, you rebel. Please refresh this page after you are done playing and enter a valid length.");
-}
+//declaring variable but not populating yet
+	var charLength = ""
 	
+//verify that password length is between 8 and 128 before allowing the user to continue		
+		while ((charLength < 8 || charLength > 128)) {
+   var charLength = prompt("Please enter a length in between 8 and 128 for your password");
+}  
 
 /*inform the user that a series of prompts are coming
 */
