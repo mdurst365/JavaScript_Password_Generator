@@ -16,7 +16,6 @@ var numberSelection = false;
 
 /*prompt user to input desired character length - between 8 and 128
 */
-function generate(){
 var charLength = prompt("What length would you like the password to be? (Between 8 to 128 characters)");
 
 //Run program if a character range is choosen between 8 and 128;		
@@ -79,4 +78,3 @@ function password(l, characters) {
     return pwd;
 }
 
-}
