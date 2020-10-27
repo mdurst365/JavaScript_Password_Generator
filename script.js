@@ -23,7 +23,7 @@ var charLength = prompt("What length would you like the password to be? (Between
 		if ((charLength >= 8) && (charLength <= 128)) {
    window.alert("Great! That is a valid length");
 }  else {
-  window.alert("Sorry that won't work - Please refresh this page and enter a valid length");
+  window.alert("I guess you think rules are for other people, you rebel. Please refresh this page after you are done playing and enter a valid length.");
 }
 	
 
@@ -35,19 +35,19 @@ window.alert("Please answer the next 4 questions to personalize your password");
 /*character type prompts: lowercase, uppercase, special characters, numbers
 */
 if (charLength) {
-        if (confirm("Question 1/4: Would you like to use lowercase characters?") == true) {
+        if (confirm("Question 1/4: Would you like to use lowercase characters? Click Okay for Yes or Cancel for No.") == true) {
             lowerSelection = true
         } 
 
-        if (confirm("Question 2/4: Would you like to use uppercase characters?") == true) {
+        if (confirm("Question 2/4: Would you like to use uppercase characters? Click Okay for Yes or Cancel for No.") == true) {
             upperSelection = true
         }
 
-        if (confirm("Question 3/4: Would you like to use special characters?") == true) {
+        if (confirm("Question 3/4: Would you like to use special characters? Click Okay for Yes or Cancel for No.") == true) {
             specialSelection = true
         }
 
-        if (confirm("Question 4/4: Would you like to use numerical characters?") == true) {
+        if (confirm("Question 4/4: Would you like to use numerical characters? Click Okay for Yes or Cancel for No.") == true) {
             numberSelection = true
         }
 
