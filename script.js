@@ -14,6 +14,9 @@ var upperSelection = false;
 var specialSelection = false;
 var numberSelection = false;
 
+//onclick call this function
+function generate() {
+
 /*prompt user to input desired character length - between 8 and 128
 */
 var charLength = prompt("What length would you like the password to be? (Between 8 to 128 characters)");
@@ -78,3 +81,4 @@ function password(l, characters) {
     return pwd;
 }
 
+}
