@@ -51,7 +51,10 @@ if (charLength) {
 
 /*remind user to select at least one character type from the prompts
 */
-window.alert("Please select at least one character type from the prompts)");
+  if (lowerSelection === false && upperSelection === false && specialSelection === false && numberSelection === false) {
+            alert("At least one character type must be selected")
+        }
+    }
 
 /*function to generate a random password
 */
