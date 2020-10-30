@@ -18,6 +18,8 @@ This week’s homework requires you to create an application that an employee ca
 ## Validation Resources
 [X] Checked to make sure that this code does produce any errors in the console when you inspect it using Chrome DevTools.
 
+![Image of project(https://raw.githubusercontent.com/mdurst365/JavaScript_Password_Generator/main/screenshot.JPG)
+
 ## MIT License
 
 Copyright (c) 2020 Molly Durst
